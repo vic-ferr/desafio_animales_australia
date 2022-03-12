@@ -1,19 +1,13 @@
 import Animal from "./animales.js";
 
-class Aguila extends Animal{
-    constructor(nombre, edad, img, comentario, sonido) {
-        super(nombre, edad, img, comentario, sonido);
-      }
+class Aguila extends Animal {
+  constructor(nombre, edad, img, comentario, sonido) {
+    super(nombre, edad, img, comentario, sonido);
+  }
 
-
-// imagenClaseaguila(){
-//     return this.img
-// }
-
-chillido(){
-
+  chillido() {
     return this.sonido;
-}
+  }
 }
 
-export  default Aguila
+export default Aguila;

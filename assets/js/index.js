@@ -6,7 +6,6 @@ import Oso from "./Oso.js";
 import Serpiente from "./Serpiente.js";
 import Lobo from "./Lobo.js";
 import Animal from "./animales.js";
-//import Animal from "./animales.js";
 
 const divAnimales = document.getElementById("Animales");
 const selectAnimal = document.getElementById("animal");
